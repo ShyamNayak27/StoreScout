@@ -17,7 +17,7 @@ def idle_check():
         b=win32api.GetLastInputInfo()
         if a==b:
             print("Idle")
-            print(type("Application.exe" in (i.name() for i in psutil.process_iter())))
+            #print(type("Application.exe" in (i.name() for i in psutil.process_iter())))
             while i > 3:
                 if ("Valorant.exe" in (i.name() for i in psutil.process_iter()))==True:
                     #print("Application Online")
