@@ -13,7 +13,7 @@ def idle_check():
     global i
     while i>3:
         a=win32api.GetLastInputInfo() 
-        time.sleep(10) #provide the time in between checks(in secs) , 30 mins by default 
+        time.sleep(1800) #provide the time in between checks(in secs) , 30 mins by default 
         b=win32api.GetLastInputInfo()
         if a==b:
             print("Idle")
