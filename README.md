@@ -1,4 +1,4 @@
-# Valorant Store Auto-Checker 🎮
+# StoreScout : Valorant 🎮
 
 An automated Python script that monitors your system's idle state, launches Valorant, captures daily store screenshots, and manages the application lifecycle. The script intelligently waits for idle periods before checking the store, making it non-intrusive to your regular computer usage.
 
